@@ -30,61 +30,109 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#"></a>Accueil</li>
-                    <li><a href="#"></a>A propos</li>
-                    <li><a href="#"></a>Projets</li>
-                    <li><a href="#"></a>Contact</li>
+                    <li><a href="#accueil">Accueil </a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#projet">Projets</a></li>
+                    <li><a href="#ancreformulaire">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="photo_de_profil">
-            <p>photo de profil</p>
+            <img src="./assets/img/butterfly-g349d2a262_640 (1).png" alt="imagedeprofil">
         </div>
     </header>
     <main>
         <section class="edito">
-            <p>Edito/citation/carrousel</p>
+            <p id="projet">Edito/citation/carrousel</p>
         </section>
         <p>Projets</p>
         <section class="projets">
-            <div class="projet">
-                <img src="./assets/img/adventure-ge96cf6a5b_640.jpg" alt="image">
-                <h3>Projet 1<h3>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./assets/img/adventure-ge96cf6a5b_640.jpg" alt="adventure">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Projet 1</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
-            <div class="projet">
-                <img src="./assets/img/animal-g38069d86d_640.jpg" alt="image">
-                <h3>Projet 2</h3>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./assets/img/animal-g38069d86d_640.jpg" alt="Avatar">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Projet 2</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
-            <div class="projet">
-                <img src="./assets/img/autumn-g187427295_640.jpg" alt="image">
-                <h3>Projet 3</h3>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./assets/img/autumn-g187427295_640.jpg" alt="adventure">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Projet 3</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
-            <div class="projet">
-                <img src="./assets/img/butterfly-g6485c5fab_640.jpg" alt="image">
-                <h3>Projet 4</h3>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./assets/img/forget-me-nots-g352aaf617_640.jpg" alt="adventure">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Projet 4</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
-            <div class="projet">
-                <img src="./assets/img/girl-g1b46c0e45_640.jpg" alt="image">
-                <h3>Projet 5</h3>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./assets/img/butterfly-g6485c5fab_640.jpg" alt="adventure">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Projet 5</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
-            <div class="projet">
-                <img src="./assets/img/forget-me-nots-g352aaf617_640.jpg" alt="image">
-                <h3>Projet 6</h3>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./assets/img/girl-g1b46c0e45_640.jpg" alt="adventure">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Pojet 6</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="formulaire">
-            <p>Contacts</p>
+            <p id="ancreformulaire">Contacts</p>
             <form action="action_page.php">
                 <div>
-                    <label for="fname">First Name:</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="fname">Prénom:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Ton prénom..">
                 </div>
                 <div>
-                    <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="lname">Nom:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Ton nom..">
                 </div>
-                <div><label for="subject">Subject:</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
+                <div><label for="subject">Sujet:</label>
+                    <textarea id="subject" name="subject" placeholder=" Écrivez quelques choses.."
                         style="height:80px"></textarea>
                 </div>
                 <button><input type="submit" value="Submit"></button>
